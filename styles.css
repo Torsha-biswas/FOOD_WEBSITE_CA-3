@@ -1,0 +1,135 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f2fac6;
+    color: #780808;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 38px;
+  }
+  
+  header p {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  
+  /* Search form styles */
+  #search-form {
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    padding: 30px;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  #search-input:focus {
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f893f8;
+    color: #0f0b0b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #620519;
+  }
+  
+  /* Random Meal Section styles */
+  #random-meal {
+    background-color: #222d02;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  #random-meal h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  #random-meal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  #random-meal-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #random-meal-name {
+    font-size: 18px;
+  }
+  
+  /* List of Searched Meal Categories Section styles */
+  #searched-meals {
+    display: none; 
+  }
+  
+  #searched-meals h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #searched-meals-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Meal card styles */
+  .meal-card {
+    background-color: #efa837;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(139, 54, 54, 0.1);
+  }
+  
+  .meal-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .meal-card p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
